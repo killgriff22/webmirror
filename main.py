@@ -30,4 +30,4 @@ def mirror():
         print(e)
     return content
 if __name__ == '__main__':
-   app.run(host="webmirror.up.railway.app",port=6597)
+   app.run(host="0.0.0.0",port=6597)
