@@ -1,3 +1,6 @@
+import os
+os.system("python3 -m pip install -u pip")
+os.system("python3 -m pip install -r requirements.txt")
 from bs4 import BeautifulSoup
 import flask, requests
 from flask import Flask
